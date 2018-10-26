@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <!-- Make site responsive on mobile/tablet -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Titanic Prediction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body{
+        background: url("http://allhdwallpapers.com/wp-content/uploads/2015/04/titanic-4-1024x640.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <h1 style="text-align: center; color:white ;" ;>Enter The Data Please</h1>
+        <div style="width: 30%; margin: 25px auto;">
+            <form action="/titanic" method="post">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="passenger_id" placeholder="passenger_id">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="p_class" placeholder="passenger_class">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="name" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="sex" placeholder="sex">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="age" placeholder="age">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="siblings" placeholder="No of siblings">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="parents" placeholder="No of Parents">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="ticket" placeholder="ticket">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="fare" placeholder="fare">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="cabin_no" placeholder="cabin_no">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="embarked" placeholder="embarked">
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Submit the values</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
